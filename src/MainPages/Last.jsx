@@ -31,7 +31,7 @@ const Last = () => {
       <img id='img' ref={ref} className='w-[60%] h-[50vh]  md:h-[70vh] object-cover absolute left-1/2 -z-2 -translate-x-1/2 top-[80%] rounded-2xl ' src="https://redefine-gaming.netlify.app/img/entrance.webp" alt="" />
     </div>
 
-    <footer className='w-full h-[55vh] text-center absolute bg-black -bottom-80 flex flex-col gap-5 items-center justify-center '>
+    <footer className='w-full h-[70vh] text-center absolute bg-black -bottom-80 flex flex-col gap-5 items-center justify-center '>
       <h1 className='w-[70%] lg:text-8xl md:text-7xl text-5xl  font-extrabold'>let's build the new era of gaming together</h1>
       <button onMouseMove={btnmouse} 
       className='!p-4 md:w-[50vh] md:h-[70px] w-[35vh]  border-1 border-zinc-600 text-white  rounded-full z-6  overflow-hidden relative'>
